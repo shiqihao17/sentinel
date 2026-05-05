@@ -1,0 +1,8 @@
+watch_addresses:
+  - address: "0xb1058c959987e3513600eb5b4fd82aeee2a0e4f9"
+    name: "Grok Wallet"
+    chain: "base"
+
+  - address: "0x1234567890123456789012345678901234567890"
+    name: "My Wallet"
+    chain: "base"
