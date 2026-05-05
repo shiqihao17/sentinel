@@ -1,0 +1,17 @@
+rules:
+  - id: large_transfer
+    description: "Single transfer value exceeds 50,000 USD"
+    enabled: true
+    trigger:
+      type: transfer_amount
+      min_value_usd: 50000
+    severity: critical
+
+  - id: ai_agent_burst
+    description: "Watched wallet sends 3+ transactions within 5 minutes"
+    enabled: true
+    trigger:
+      type: tx_frequency
+      window_seconds: 300
+      threshold: 3
+    severity: high
