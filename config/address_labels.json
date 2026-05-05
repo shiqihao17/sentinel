@@ -1,0 +1,12 @@
+{
+  "0xb1058c959987e3513600eb5b4fd82aeee2a0e4f9": {
+    "name": "Grok Wallet",
+    "type": "ai_agent",
+    "risk": "high"
+  },
+  "0x1111111111111111111111111111111111111111": {
+    "name": "Binance Deposit",
+    "type": "cex",
+    "risk": "medium"
+  }
+}
